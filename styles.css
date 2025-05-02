@@ -1,0 +1,32 @@
+h1{
+    color: red;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth ;
+}
+
+body {
+    background-color: rgb(46, 44, 44);
+}
+header {
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    max width: 1200px;
+}
+.navigation ul{
+display: flex;
+list-style: none;
+gap: 2rem;
+}
+.navigation {
+text-decoration:none;
+color: aliceblue;
+}
